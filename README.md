@@ -199,7 +199,7 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
 ### 1.相关资源文件的准备
 &emsp;&emsp;这个部分和之前没有不同，不再次贴代码了。
 
-###2.编写主布局
+### 2.编写主布局
 &emsp;&emsp;注意要添加依赖：
 ```
 implementation 'com.android.support:design:28.0.0'
@@ -232,10 +232,10 @@ implementation 'com.android.support:design:28.0.0'
         <item name="tabIndicatorColor">#71c4b0</item>
     </style>
 ```
-###3.编写fragment布局和类
+### 3.编写fragment布局和类
 &emsp;&emsp;这个部分和之前没有不同，不再次贴代码了。
 
-###4.编写页面适配器
+### 4.编写页面适配器
 *MainPagerAdapter.java*
 
 ```
@@ -273,7 +273,7 @@ public class MainPagerAdapter extends FragmentPagerAdapter {
     }
 }
 ```
-###5.重写MainFragment.java
+### 5.重写MainFragment.java
 
 ```
 public class MainFragment extends Fragment{
@@ -332,7 +332,7 @@ public class MainFragment extends Fragment{
     }
 }
 ```
-###6.点击运行查看效果
+### 6.点击运行查看效果
 ![avatar](/images/2.png)
 ## 最后贴一下整个代码的结构
 ![avatar](/images/3.png)
